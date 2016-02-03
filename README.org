@@ -7,7 +7,7 @@
 
 * 内容纲要
 本教程计划覆盖的内容有:
-1. Python的环境配置、常用工具和基本语法
+1. [[file:docs/01_Basic.org][Python的环境配置、常用工具和基本语法]]
 2. 常用功能和编程基本思想
 3. 项目建立和库的调用(request/pandas)
 4. 科学计算和可视化初步(numpy/matplotlib)

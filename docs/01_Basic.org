@@ -33,5 +33,13 @@ IDE是集成开发环境（Integrated Development Environment）的缩写，实�
 设置好后Pycharm会自动更新设置
 *** 新建项目
 在[[fig:setup-0][开始界面]]中点击 =Create New project=.
+[[file:images/01-setup-2.png]]
+选择Pure Python项目，设置好项目路径（项目代码的存储路径）和Python解释器后就可以创建新项目了。
+** 使用Pycharm
+进入Pycharm后界面如下：
+[[file:images/01-setup-3.png]]
+各个区域具体的用法我们会在后面细说。
+*** 使用Python Console
+首先使用Python交互命令行试验一下
 
 * 基本语法（阅读时间：25分钟）
