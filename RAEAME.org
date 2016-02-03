@@ -1,4 +1,6 @@
 #+TITLE:（每天）2小时上手Python
 #+AUTHOR: Allen Woods
 
-网上已经有许多非常好的Python教程了，比如[[http://www.liaoxuefeng.com/][廖雪峰的Python教程]], [[http://learnpythonthehardway.org/][Learn Python The Hard Way]]等等。那为什么还要再写一份教程呢？因为平时接触到的同学里，有许多人并不是CS专业，甚至对
+网上已经有许多非常好的Python教程了，比如 [[http://www.liaoxuefeng.com/][廖雪峰的Python教程]], [[http://learnpythonthehardway.org/][Learn Python The Hard Way]] 等等。那为什么还要再写一份教程呢？因为平时接触到的同学里，有许多人并不是CS专业，对编程毫无兴趣，但由于种种原因又不得不写点代码来完成一些自动化的工作。对于他们来说，花上几周时间学习编程，投入的性价比不高，而且缺乏及时的反馈，很快就失去了学习的兴趣。本教程想要帮助他们快速地掌握一门语言，并且能立刻用编程的方式提高工作效率。
+
+注意：本教程是针对非码农的入门文章，因此不会
