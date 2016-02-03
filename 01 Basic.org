@@ -32,6 +32,6 @@ IDE是集成开发环境（Integrated Development Environment）的缩写，实�
 [[file:images/01-setup-1.png]]
 设置好后Pycharm会自动更新设置
 *** 新建项目
-在开始界面[[#fig:setup-0]]中点击 =Create New project=.
+在[[fig:setup-0][开始界面]]中点击 =Create New project=.
 
 * 基本语法（阅读时间：25分钟）
