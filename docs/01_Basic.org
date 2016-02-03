@@ -1,4 +1,4 @@
-#+TITLE:（每天）2小时上手Python-1 Python的环境配置、常用工具和基本语法
+#+TITLE:（每天）2小时上手Python： Python的环境配置、常用工具和基本语法
 #+AUTHOR: Allen Woods
 
 * 开始前的准备（阅读时间：10分钟）
@@ -6,7 +6,7 @@
 #+BEGIN_QUOTE
 I've always been there...
 #+END_QUOTE
-好的搜索引擎是一切工作的基础，对于绝大多数的问题，网上早就有了现成的答案。翻墙使用Google，熟练地在[[http://stackoverflow.com/][ StackOverfLow]] 等网站上查找解决方案是提高效率的不二法门. 如果你还不会翻墙, 请咨询身边的宅男朋友. 翻墙工具, 我推荐使用Lantern(免费)或者shadowsocks(一般需要付费).
+好的搜索引擎是一切工作的基础，对于绝大多数的问题，网上早就有了现成的答案。翻墙使用Google，熟练地在[[http://stackoverflow.com/][StackOverflow]] 等网站上查找解决方案是提高效率的不二法门. 如果你还不会翻墙, 请咨询身边的宅男朋友. 翻墙工具, 我推荐使用Lantern(免费)或者shadowsocks(一般需要付费).
 
 此外，互联网上的英文资源比中文要丰富许多，熟练使用英文关键字搜索也是一项必备技能。
 ** Python
@@ -21,6 +21,7 @@ IDE是集成开发环境（Integrated Development Environment）的缩写，实�
 ** 练习（完成时间：15分钟，不包含下载时间）
 1. 使用Google搜索Anaconda，Pycharm并下载安装
 2. 搜索如何将Anaconda集成进Pycharm（提示：搜索pycharm anaconda setup）
+
 * Python环境配置（阅读时间：15分钟）
 如果完成了上一节的练习2，你应该已经配置好了Python开发环境。可以对照下文看看有没有配置成功。开始前确保安装好Anaconda和Pycharm。
 ** Python解释器设置
@@ -52,4 +53,17 @@ IDE是集成开发环境（Integrated Development Environment）的缩写，实�
 [[file:images/01-helloworld.png]]
 
 恭喜你，你写下了第一行Python代码！
+
 * 基本语法（阅读时间：25分钟）
+Python交互命令行可以方便地尝试各种用法，但完整的功能还需要编写完整的源代码来完成。我们首先新建一个源文件 =main.py=
+
+#+BEGIN_SRC python
+  if __name__ == "__main__":
+    name = input("What's your name:")
+    greeting = "Hello,%s"%name
+    l_count = greeting.count('l')
+    l_percent = (l_count/len(greeting))*100
+    print(greeting)
+    print("The length of the sentence is %d, there are %d 'l' in it(%.2f%%)."
+          %(len(greeting),l_count,l_percent))
+#+END_SRC
