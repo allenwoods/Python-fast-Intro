@@ -37,9 +37,19 @@ IDE是集成开发环境（Integrated Development Environment）的缩写，实�
 选择Pure Python项目，设置好项目路径（项目代码的存储路径）和Python解释器后就可以创建新项目了。
 ** 使用Pycharm
 进入Pycharm后界面如下：
-[[file:images/01-setup-3.png]]
+[[file:images/01-pycharm-0.png]]
 各个区域具体的用法我们会在后面细说。
 *** 使用Python Console
 首先使用Python交互命令行试验一下
+[[file:images/01-pycharm-1.png]]
+打开Python Console
 
+在 =In[2]:= 后输入
+#+BEGIN_SRC python
+  print("Hello, World!")
+#+END_SRC
+输出如下
+[[file:images/01-helloworld.png]]
+
+恭喜你，你写下了第一行Python代码！
 * 基本语法（阅读时间：25分钟）
