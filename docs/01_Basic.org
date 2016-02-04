@@ -55,8 +55,9 @@ IDE是集成开发环境（Integrated Development Environment）的缩写，实�
 恭喜你，你写下了第一行Python代码！
 
 * 基本语法（阅读时间：25分钟）
-Python交互命令行可以方便地尝试各种用法，但完整的功能还需要编写完整的源代码来完成。我们首先新建一个源文件 =main.py=
-
+Python交互命令行可以方便地尝试各种用法，但完整的功能还需要编写完整的源代码来完成。我们首先新建一个源文件 =main.py=.
+[[file:images/01-basic-0.png]]
+内容如下：
 #+BEGIN_SRC python
   if __name__ == "__main__":
     name = input("What's your name:")
@@ -67,3 +68,14 @@ Python交互命令行可以方便地尝试各种用法，但完整的功能还�
     print("The length of the sentence is %d, there are %d 'l' in it(%.2f%%)."
           %(len(greeting),l_count,l_percent))
 #+END_SRC
+将以上内容粘贴至编辑区，运行该程序。
+[[file:images/01-basic-1.png]]
+** 变量和判断
+*** 条件判断
+*** 变量
+*** 数据类型
+
+** 封装
+*** 数据封装
+*** 操作封装
+*** 对象
